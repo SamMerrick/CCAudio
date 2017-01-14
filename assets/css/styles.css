@@ -1,0 +1,251 @@
+/* Inits */
+@font-face{
+	font-family: airphonica;
+    src: url(../font/neoteric.ttf);
+}
+@font-face{
+	font-family: main;
+    src: url(../font/dialog.ttf);
+}
+body {
+	margin: 0px 0px 0px 0px;
+	font-family: main;
+	background-color: #f2f2f2;
+	min-width: 1050px;	
+}
+a {
+	text-decoration:none;
+	color:#000000;
+}
+#info h2, h3, h5, #login h3 {
+	text-align: center;	
+}
+#info {
+	display: inline;
+	position:relative;
+}
+/* Submission Area */
+#submissions {	
+	height: 100%;
+	text-align: center;
+	display:inline-block;
+	width:800px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 8%;
+	margin-top: 150px;
+	background-color: #ffffff;
+	margin-top: 0px;
+}
+#submissions h3 {
+	text-align: left;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	font-size: 25px;
+	margin-top: 100px;
+}
+.submission {	
+	transition: background-color .15s ease-in-out;
+	font-family: main;
+	display:block;
+    height: 140px;
+	padding-bottom:20px;
+	padding-top: 20px;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-color: #ddd;
+	margin-top: -1px;
+
+}
+.submission:hover{
+	background-color: #eee;
+}
+.submission .header {
+	margin-bottom: 10px;
+	padding-top:6px;
+}
+
+.submission .playd img {
+	width: 20px;
+	margin-left 20px;
+}
+.submission .img, .img img {
+	float: left;
+	display: inline;
+	width: 140px; 
+	height: 
+	opacity: 1;
+	padding-left:5px;
+	padding-right:5px;
+}
+.submission .header img {
+	float: left;
+	margin-left: 10px;
+	margin-right: 5px;
+	vertical-align: center;
+}
+.submission p {
+	margin: 0;
+	display: block;
+	text-align: left;
+	width: 40%;
+	
+}
+.submission .artist {
+	margin-left:180px;
+}
+
+.genre  {
+	float: right;
+	margin-right: 8px;
+	opacity: 0.6;
+	border-radius: 7px;
+    background: #555;
+    padding: 4px; 
+	color: white;
+	font-size: 12px;
+	position: static;
+}
+
+.description {
+	float: right;
+	font-size: 10px;
+}
+.submission .artist {
+	font-size: 12px;
+	opacity: 0.6;
+}
+
+.container {
+	margin-left:150px;	
+	height:68px;
+}
+.cc {
+	margin-left:10px;
+}
+
+#ccorg img {
+	width:100px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 280px;
+
+	
+}
+
+.ccorg img {
+	
+}
+
+.cc img {
+	width:20px;
+	float:left;
+	opacity:.3;
+	transition: opacity .25s ease-in-out;
+	margin-left:4px;
+}
+.cc img:hover{
+	opacity:.8;
+}
+.play {
+	z-index: 5;
+
+}
+
+#playpause {
+	background-image: url(/assets/images/play.png);
+}
+.pause {
+	background-color: aqua;
+}
+.playd {
+	float:left;
+	margin-left: 10px;
+	margin-right:6px;
+}
+.download{
+	opacity: .3;
+	transition: opacity .25s ease-in-out;
+}
+.download:hover{
+	opacity: .8;
+}
+.ccabout img {
+    width: 60px;
+    display:inline;
+
+}
+#login input {
+    margin-bottom:4px;
+}
+
+/* Download Stuff */
+.condition {
+
+	transition: background-color .15s ease-in-out;
+}
+
+.downloadconditions img {
+	width:60px;
+	float: left;
+	opacity:.7;
+	transition: opacity .25s ease-in-out;
+	margin-left:20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.downloadconditions form {
+	display: inline;
+}
+
+.downloadconditions .condition {
+	display: block;
+	width: 100%;
+	height: 80px;
+	vertical-align: text-bottom;
+	text-align: left;
+}
+.downloadconditions .condition:hover {
+	background-color: #eee;
+}
+
+
+.downloadconditions .condition p {
+
+	margin-left:100px;
+
+	line-height: 80px;
+}
+
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+}
+
+.page {
+	padding-left:0;
+}
+
+.page li {
+	display: inline;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.current {
+	background-color: lightgrey;
+}
+
+.button {
+	padding-right: 5px;
+	padding-left: 5px;
+}

@@ -1,0 +1,100 @@
+/* Header */
+#header{	
+	font-family: main;
+	font-size:22px;
+	word-spacing: 3px;    
+	width: 100%;
+	color: #e6e6e6;
+	height: 70px;
+	z-index: 2;	
+	position: fixed;	
+}
+#headerbck{
+	background:#333333;
+	width: 100%;
+	position: fixed;
+	height: 70px;
+	z-index: 9999;	
+
+}
+#header a {
+	text-decoration: none;
+	color: #e6e6e6;
+}
+#header h1 {	
+	text-align: center;
+	font-size: 36px;
+	z-index: 2;
+	position: fixed;
+	top: 18px;
+	left: 20px;
+	margin: 0 auto;
+}
+
+#header img {
+	width: 30px;
+	border-radius: 50%;
+}
+
+#header input[type="text"] {
+	background-color: #333333;
+	border: 0;
+}
+
+/* Search */
+#header form {
+	width: 40%;
+	color: #333333;
+	position: fixed;
+	margin-left: 22%;
+	margin-top: 12px;
+	z-index: 3; 
+}
+#header form input[type=text] {
+	color: white;
+}
+
+#header .beta {
+	width: 40px;
+	position: fixed;
+	margin-left: 140px;
+	margin-top: 10px;
+	font-size: 16px;
+	z-index: 999;
+}
+
+/* Navigation */
+
+#nav {
+    position: fixed;
+    top: 0px;
+    right: 10px;
+	z-index: 2;
+}
+
+ul {
+    list-style-type: none !important;
+    overflow: hidden;
+	font-size: 20px;
+}
+
+#nav li {
+    float: right;
+	margin-right: 20px;	
+}
+
+#nav li a {
+    display: block;
+    width: auto;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav li a:hover, a:active {
+	background-color: #0d0d0d;
+}
+
+
+

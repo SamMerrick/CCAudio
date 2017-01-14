@@ -1,0 +1,91 @@
+form a {
+    text-align: center;
+}
+hr {
+	border:0;
+	border-bottom:1px solid #ccc;
+	margin:10px -40px;
+	margin-bottom:30px
+}
+input[type=text],input[type=password],input[type=email],textarea {
+	width:99.5%;
+	padding:10px;
+	border:1px solid #ccc;
+	margin-top: 5px;
+	padding-left:5px;
+	font-size:16px;
+	resize: none; 
+}
+input[type=text] .button, input[type=submit] {
+	width:300px;
+	background-color:#333333;
+	color:#fff;
+	padding:10px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px;
+	margin-top:6px;
+	margin-bottom: 6px;
+}
+
+
+#login {
+	font-size:12px;
+}
+
+#uploadform {
+	position: relative;
+	top: 100px;
+	background-color: #fff;	
+}
+
+#uploadform .column {
+	padding: 20px 20px 20px 20px;
+	margin: 15px 15px 20px 15px;
+	border-color: lightgray;
+	border-style: solid;
+	border-width: thin;
+	width: 40%;	
+	height: 350px;
+	display: inline-table;	
+}
+
+
+#uploadform img {
+	width: 250px;
+}
+
+.custom-file-input {
+  color: transparent;
+  width: 88px;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select File';
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+
+
